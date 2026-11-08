@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+<rect width="1000" height="430" fill="#f6f8fb"/><text x="500" y="42" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#17365d">Parameterized ALU datapath</text>
+<g font-family="Arial" font-size="18" text-anchor="middle">
+<rect x="35" y="110" width="145" height="70" rx="12" fill="#dce6f1" stroke="#17365d" stroke-width="2"/><text x="107" y="140" fill="#17365d">Operand A</text><text x="107" y="164" fill="#17365d">W bits</text>
+<rect x="35" y="235" width="145" height="70" rx="12" fill="#dce6f1" stroke="#17365d" stroke-width="2"/><text x="107" y="265" fill="#17365d">Operand B</text><text x="107" y="289" fill="#17365d">W bits</text>
+<rect x="230" y="75" width="330" height="250" rx="16" fill="#eaf2f8" stroke="#4472c4" stroke-width="2"/><text x="395" y="107" fill="#17365d" font-weight="bold">Operation units</text>
+<text x="395" y="145" fill="#333">ADD / SUB / MUL</text><text x="395" y="180" fill="#333">AND / OR / XOR / NOT</text><text x="395" y="215" fill="#333">SHL / SHR / EQ</text><text x="395" y="263" fill="#555" font-size="15">Operation selector chooses one result</text>
+<rect x="650" y="125" width="135" height="145" rx="14" fill="#fff2cc" stroke="#bf9000" stroke-width="2"/><text x="717" y="170" fill="#6b5200" font-weight="bold">Result</text><text x="717" y="201" fill="#6b5200">W-bit mux</text><text x="717" y="232" fill="#6b5200">+ flags</text>
+<rect x="835" y="104" width="130" height="185" rx="12" fill="#e2f0d9" stroke="#548235" stroke-width="2"/><text x="900" y="139" fill="#385623" font-weight="bold">Outputs</text><text x="900" y="173" fill="#385623">result[W-1:0]</text><text x="900" y="207" fill="#385623">zero</text><text x="900" y="237" fill="#385623">carry</text><text x="900" y="267" fill="#385623">overflow</text>
+</g>
+<g stroke="#333" stroke-width="3" fill="none"><path d="M180 145 H230"/><path d="M180 270 H208 V280 H230"/><path d="M560 200 H650"/><path d="M785 200 H835"/></g>
+<text x="500" y="378" text-anchor="middle" font-family="Arial" font-size="16" fill="#444">W is configurable: default 8; tested configurations target 8, 16, and 32 bits.</text>
+</svg>
