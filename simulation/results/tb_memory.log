@@ -1,0 +1,2 @@
+VCD info: dumpfile simulation/vcd/tb_memory.vcd opened for output.
+PASS tb_memory: 16 RAM write/read locations, write inhibit, 16 ROM words

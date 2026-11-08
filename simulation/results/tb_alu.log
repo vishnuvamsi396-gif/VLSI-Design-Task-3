@@ -1,0 +1,2 @@
+VCD info: dumpfile simulation/vcd/tb_alu.vcd opened for output.
+PASS tb_alu: 79 checks (15 directed + 64 repeatable pseudo-random)

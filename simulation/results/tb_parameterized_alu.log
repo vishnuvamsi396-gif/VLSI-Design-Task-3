@@ -1,0 +1,2 @@
+VCD info: dumpfile simulation/vcd/tb_parameterized_alu.vcd opened for output.
+PASS tb_parameterized_alu: widths 8, 16, and 32

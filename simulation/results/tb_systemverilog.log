@@ -1,0 +1,2 @@
+VCD info: dumpfile simulation/vcd/tb_systemverilog.vcd opened for output.
+PASS tb_systemverilog: reset, FFs, enable hold, enum FSM, counter overflow
