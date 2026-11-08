@@ -1,0 +1,217 @@
+$date
+	Sun Nov  8 10:25:43 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_parameterized_alu $end
+$var wire 1 ! z8 $end
+$var wire 1 " z32 $end
+$var wire 1 # z16 $end
+$var wire 1 $ v8 $end
+$var wire 1 % v32 $end
+$var wire 1 & v16 $end
+$var wire 8 ' r8 [7:0] $end
+$var wire 32 ( r32 [31:0] $end
+$var wire 16 ) r16 [15:0] $end
+$var wire 1 * c8 $end
+$var wire 1 + c32 $end
+$var wire 1 , c16 $end
+$var reg 16 - a16 [15:0] $end
+$var reg 32 . a32 [31:0] $end
+$var reg 8 / a8 [7:0] $end
+$var reg 16 0 b16 [15:0] $end
+$var reg 32 1 b32 [31:0] $end
+$var reg 8 2 b8 [7:0] $end
+$var reg 4 3 op [3:0] $end
+$scope module alu16 $end
+$var wire 16 4 operand_a [15:0] $end
+$var wire 16 5 operand_b [15:0] $end
+$var wire 4 6 operation [3:0] $end
+$var parameter 32 7 DATA_WIDTH $end
+$var parameter 4 8 OP_ADD $end
+$var parameter 4 9 OP_AND $end
+$var parameter 4 : OP_EQ $end
+$var parameter 4 ; OP_MUL $end
+$var parameter 4 < OP_NOT $end
+$var parameter 4 = OP_OR $end
+$var parameter 4 > OP_SHL $end
+$var parameter 4 ? OP_SHR $end
+$var parameter 4 @ OP_SUB $end
+$var parameter 4 A OP_XOR $end
+$var parameter 32 B SHIFT_WIDTH $end
+$var reg 1 , carry_out $end
+$var reg 17 C extended_sum [16:0] $end
+$var reg 32 D full_product [31:0] $end
+$var reg 1 & overflow $end
+$var reg 16 E result [15:0] $end
+$var reg 1 # zero $end
+$upscope $end
+$scope module alu32 $end
+$var wire 32 F operand_a [31:0] $end
+$var wire 32 G operand_b [31:0] $end
+$var wire 4 H operation [3:0] $end
+$var parameter 32 I DATA_WIDTH $end
+$var parameter 4 J OP_ADD $end
+$var parameter 4 K OP_AND $end
+$var parameter 4 L OP_EQ $end
+$var parameter 4 M OP_MUL $end
+$var parameter 4 N OP_NOT $end
+$var parameter 4 O OP_OR $end
+$var parameter 4 P OP_SHL $end
+$var parameter 4 Q OP_SHR $end
+$var parameter 4 R OP_SUB $end
+$var parameter 4 S OP_XOR $end
+$var parameter 32 T SHIFT_WIDTH $end
+$var reg 1 + carry_out $end
+$var reg 33 U extended_sum [32:0] $end
+$var reg 64 V full_product [63:0] $end
+$var reg 1 % overflow $end
+$var reg 32 W result [31:0] $end
+$var reg 1 " zero $end
+$upscope $end
+$scope module alu8 $end
+$var wire 8 X operand_a [7:0] $end
+$var wire 8 Y operand_b [7:0] $end
+$var wire 4 Z operation [3:0] $end
+$var parameter 32 [ DATA_WIDTH $end
+$var parameter 4 \ OP_ADD $end
+$var parameter 4 ] OP_AND $end
+$var parameter 4 ^ OP_EQ $end
+$var parameter 4 _ OP_MUL $end
+$var parameter 4 ` OP_NOT $end
+$var parameter 4 a OP_OR $end
+$var parameter 4 b OP_SHL $end
+$var parameter 4 c OP_SHR $end
+$var parameter 4 d OP_SUB $end
+$var parameter 4 e OP_XOR $end
+$var parameter 32 f SHIFT_WIDTH $end
+$var reg 1 * carry_out $end
+$var reg 9 g extended_sum [8:0] $end
+$var reg 16 h full_product [15:0] $end
+$var reg 1 $ overflow $end
+$var reg 8 i result [7:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 f
+b101 e
+b1 d
+b1000 c
+b111 b
+b100 a
+b110 `
+b10 _
+b1001 ^
+b11 ]
+b0 \
+b1000 [
+b101 T
+b101 S
+b1 R
+b1000 Q
+b111 P
+b100 O
+b110 N
+b10 M
+b1001 L
+b11 K
+b0 J
+b100000 I
+b100 B
+b101 A
+b1 @
+b1000 ?
+b111 >
+b100 =
+b110 <
+b10 ;
+b1001 :
+b11 9
+b0 8
+b10000 7
+$end
+#0
+$dumpvars
+b0 i
+b0 h
+b100000000 g
+b0 Z
+b10 Y
+b11111110 X
+b0 W
+b0 V
+b100000000000000000000000000000000 U
+b0 H
+b10 G
+b11111111111111111111111111111110 F
+b0 E
+b0 D
+b10000000000000000 C
+b0 6
+b10 5
+b1111111111111110 4
+b0 3
+b10 2
+b10 1
+b10 0
+b11111110 /
+b11111111111111111111111111111110 .
+b1111111111111110 -
+1,
+1+
+1*
+b0 )
+b0 (
+b0 '
+0&
+0%
+0$
+1#
+1"
+1!
+$end
+#1000
+0#
+b1111111111111100 )
+b1111111111111100 E
+b0 C
+0,
+0"
+b11111111111111111111111111111100 (
+b11111111111111111111111111111100 W
+b0 U
+0+
+0!
+b11111100 '
+b11111100 i
+b0 g
+0*
+b101 3
+b101 6
+b101 H
+b101 Z
+#2000
+b1111111111111100 )
+b1111111111111100 E
+b11111111111111111111111111111100 (
+b11111111111111111111111111111100 W
+b11111100 '
+b11111100 i
+b1 1
+b1 G
+b1 0
+b1 5
+b1 2
+b1 Y
+b111 3
+b111 6
+b111 H
+b111 Z
+#3000
