@@ -1,0 +1,4 @@
+simulation/build/*.out
+tmp/
+*.vcd
+!simulation/vcd/*.vcd
